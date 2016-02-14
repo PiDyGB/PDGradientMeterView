@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PDGradientMeterView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +16,83 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hj2-Lj-Ko0" customClass="PDGradientMeterView" customModule="PDGradientMeterView">
+                                <rect key="frame" x="180" y="165" width="240" height="10"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Ty4-Gu-83a"/>
+                                    <constraint firstAttribute="height" constant="10" id="ygN-Pr-mUX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="indicatorColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0iB-1g-oqS" customClass="PDGradientMeterView" customModule="PDGradientMeterView">
+                                <rect key="frame" x="180" y="295" width="240" height="10"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Qn8-C6-DTr"/>
+                                    <constraint firstAttribute="height" constant="10" id="gM0-b7-gEh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="minimumColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="mediumColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="maximumColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yhn-Ca-Maz" customClass="PDGradientMeterView" customModule="PDGradientMeterView">
+                                <rect key="frame" x="180" y="425" width="240" height="10"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="C2T-hX-0gr"/>
+                                    <constraint firstAttribute="width" constant="240" id="QZ8-QI-PEK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="minimumColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="mediumColor">
+                                        <color key="value" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="maximumColor">
+                                        <color key="value" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntJ-jG-z9z">
+                                <rect key="frame" x="269" y="550" width="62" height="30"/>
+                                <state key="normal" title="CHANGE"/>
+                                <connections>
+                                    <action selector="changeAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NBO-Kn-aKp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0iB-1g-oqS" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="B2c-H5-HPg"/>
+                            <constraint firstItem="Yhn-Ca-Maz" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="FmF-hF-XaL"/>
+                            <constraint firstItem="Yhn-Ca-Maz" firstAttribute="top" secondItem="0iB-1g-oqS" secondAttribute="bottom" constant="120" id="G80-ea-XYO"/>
+                            <constraint firstItem="ntJ-jG-z9z" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="HJM-yf-eoN"/>
+                            <constraint firstItem="0iB-1g-oqS" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Jq3-QE-IuK"/>
+                            <constraint firstItem="Hj2-Lj-Ko0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="VeW-6i-dZf"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ntJ-jG-z9z" secondAttribute="bottom" constant="20" id="ktg-69-tP9"/>
+                            <constraint firstItem="0iB-1g-oqS" firstAttribute="top" secondItem="Hj2-Lj-Ko0" secondAttribute="bottom" constant="120" id="p7B-ug-X1E"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="slider1" destination="Hj2-Lj-Ko0" id="igu-55-gT7"/>
+                        <outlet property="slider2" destination="0iB-1g-oqS" id="axf-YP-RRH"/>
+                        <outlet property="slider3" destination="Yhn-Ca-Maz" id="BKG-y0-zZ8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,0 +1,6 @@
+framework module PDGradientMeterView {
+  umbrella header "PDGradientMeterView-umbrella.h"
+
+  export *
+  module * { export * }
+}

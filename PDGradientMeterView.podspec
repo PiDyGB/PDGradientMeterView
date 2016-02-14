@@ -9,22 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = "PDGradientMeterView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PDGradientMeterView."
+  s.summary          = "A simple iOS slider with a three colors gradient."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+A simple iOS slider with a three colour gradient.
+The indicator is customizable with your custom view.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PDGradientMeterView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Giuseppe Buzzanca" => "giuseppe.buzzanca@accenture.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PDGradientMeterView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = "https://github.com/PiDyGB/PDGradientMeterView"
+  s.license          = 'Apache 2.0'
+  s.author           = { "Giuseppe Buzzanca (PiDy)" => "giuseppebuzzanca@gmail.com" }
+  s.source           = { :git => "https://github.com/PiDyGB/PDGradientMeterView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://plus.google.com/u/0/+GiuseppeBuzzanca'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -33,8 +29,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'PDGradientMeterView' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

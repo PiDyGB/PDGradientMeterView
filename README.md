@@ -1,6 +1,6 @@
 # PDGradientMeterView
 
-[![CI Status](http://img.shields.io/travis/Giuseppe Buzzanca/PDGradientMeterView.svg?style=flat)](https://travis-ci.org/Giuseppe Buzzanca/PDGradientMeterView)
+[![CI Status](http://img.shields.io/travis/PiDyGB/PDGradientMeterView.svg?style=flat)](https://travis-ci.org/PiDyGB/PDGradientMeterView)
 [![Version](https://img.shields.io/cocoapods/v/PDGradientMeterView.svg?style=flat)](http://cocoapods.org/pods/PDGradientMeterView)
 [![License](https://img.shields.io/cocoapods/l/PDGradientMeterView.svg?style=flat)](http://cocoapods.org/pods/PDGradientMeterView)
 [![Platform](https://img.shields.io/cocoapods/p/PDGradientMeterView.svg?style=flat)](http://cocoapods.org/pods/PDGradientMeterView)
@@ -22,7 +22,7 @@ pod "PDGradientMeterView"
 
 ## Author
 
-Giuseppe Buzzanca, giuseppe.buzzanca@accenture.com
+Giuseppe Buzzanca (PiDy), giuseppebuzzanca@gmail.com
 
 ## License
 
