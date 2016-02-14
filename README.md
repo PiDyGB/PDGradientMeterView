@@ -26,4 +26,4 @@ Giuseppe Buzzanca (PiDy), giuseppebuzzanca@gmail.com
 
 ## License
 
-PDGradientMeterView is available under the MIT license. See the LICENSE file for more info.
+PDGradientMeterView is available under the Apache 2.0 license. See the LICENSE file for more info.
