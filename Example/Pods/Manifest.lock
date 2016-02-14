@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PDGradientMeterView: de2464b71c6b0bb26b15b42f2561d5797a549d79
+  PDGradientMeterView: c7275f2b066780210d0d7dda16fc64e62e4bec9d
 
 COCOAPODS: 0.39.0

@@ -1,17 +1,18 @@
 {
   "name": "PDGradientMeterView",
   "version": "0.1.0",
-  "summary": "A short description of PDGradientMeterView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PDGradientMeterView",
-  "license": "MIT",
+  "summary": "A simple iOS slider with a three colors gradient.",
+  "description": "A simple iOS slider with a three colour gradient.\nThe indicator is customizable with your custom view.",
+  "homepage": "https://github.com/PiDyGB/PDGradientMeterView",
+  "license": "Apache 2.0",
   "authors": {
-    "Giuseppe Buzzanca": "giuseppe.buzzanca@accenture.com"
+    "Giuseppe Buzzanca (PiDy)": "giuseppebuzzanca@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PDGradientMeterView.git",
+    "git": "https://github.com/PiDyGB/PDGradientMeterView.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://plus.google.com/u/0/+GiuseppeBuzzanca",
   "platforms": {
     "ios": "8.0"
   },

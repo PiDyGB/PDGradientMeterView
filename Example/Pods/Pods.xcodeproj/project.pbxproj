@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08ACACC78C698E4A771D4A80E29EBEB1 /* PDGradientMeterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D772B695C48CD61BFBFD863ECDC4C8D /* PDGradientMeterView-dummy.m */; };
 		2AD272FB52D6352D63471B7B9EFF5BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		2C6CE4F29A48BA01037AFD7AB3E74130 /* PDGradientMeterView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5C88A8D306261D69AD08335C8854AB2 /* PDGradientMeterView.bundle */; };
-		44B191B197C4544148AE38D3BA860DEB /* PDGradientMeterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D772B695C48CD61BFBFD863ECDC4C8D /* PDGradientMeterView-dummy.m */; };
+		4A0039530073ECE5ED4D7AF7A87B7CA9 /* PDGradientMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F6CE5F84C64B43890E7E98E09081AC /* PDGradientMeterView.swift */; };
 		719D06B0FC5977738D35B5F3C96A6E9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		74F5B4145BD3CCC8A97DECCADAA485B6 /* Pods-PDGradientMeterView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 084639CF52B09DD7221AA8A2927EB63E /* Pods-PDGradientMeterView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C08FD821F3D7F9D93C196A6D963360F /* PDGradientMeterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FA9FC1F06AA394ABCE1B50D5D8578B /* PDGradientMeterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93B32F78FD8D6325B3ED408354BFB6FE /* Pods-PDGradientMeterView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB92EF9D0B4F110DE2E0E302C88B1A /* Pods-PDGradientMeterView_Tests-dummy.m */; };
 		AFF0045A567E9AE1592DCFF8FADA7912 /* Pods-PDGradientMeterView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B977C82472DDD0388B0D3C4DBBDA0 /* Pods-PDGradientMeterView_Example-dummy.m */; };
 		BFD45057C5002ED251347ED70B4120A0 /* Pods-PDGradientMeterView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F88CCB6F4317D38D7578C7C8CD28AADF /* Pods-PDGradientMeterView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2E24F141C70B7EF00043B6E /* PDGradientMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E24F131C70B7EF00043B6E /* PDGradientMeterView.swift */; };
 		CDF053DD785CEB798AB4AA0C4464658E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +67,6 @@
 		9C8A23B69239346E8E927DA74431E93C /* Pods-PDGradientMeterView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDGradientMeterView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A03C0CB52DA2C53F3611608BFAE520A5 /* PDGradientMeterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PDGradientMeterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2E24F131C70B7EF00043B6E /* PDGradientMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDGradientMeterView.swift; sourceTree = "<group>"; };
 		C5C88A8D306261D69AD08335C8854AB2 /* PDGradientMeterView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDGradientMeterView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDCC8EC1EAB916A5B629004340BF2D1 /* Pods-PDGradientMeterView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDGradientMeterView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D21E65BF2931696B811D890A9DFED3B1 /* Pods_PDGradientMeterView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDGradientMeterView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +75,7 @@
 		F22B977C82472DDD0388B0D3C4DBBDA0 /* Pods-PDGradientMeterView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDGradientMeterView_Example-dummy.m"; sourceTree = "<group>"; };
 		F424F06B885D7BE5EDCF7FD7A55E80C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F88CCB6F4317D38D7578C7C8CD28AADF /* Pods-PDGradientMeterView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDGradientMeterView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F9F6CE5F84C64B43890E7E98E09081AC /* PDGradientMeterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDGradientMeterView.swift; sourceTree = "<group>"; };
 		FF1AD820E79A412F8A839EB9E3123986 /* Pods-PDGradientMeterView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDGradientMeterView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF8F8D5F3EE0CB7B54DEBA00356966A3 /* Pods-PDGradientMeterView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDGradientMeterView_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,14 +160,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		602B7468A5A58C194EF3B84F7C7A783D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C2E24F131C70B7EF00043B6E /* PDGradientMeterView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +174,7 @@
 		AE638837FDD890DF02777BA1A740927A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				602B7468A5A58C194EF3B84F7C7A783D /* Classes */,
+				FEC31D3BBD8125E8843ACB94CDFD80C0 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -246,6 +238,14 @@
 			path = "Example/Pods/Target Support Files/PDGradientMeterView";
 			sourceTree = "<group>";
 		};
+		FEC31D3BBD8125E8843ACB94CDFD80C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9F6CE5F84C64B43890E7E98E09081AC /* PDGradientMeterView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -298,7 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B4AA1C72F121FD0543CE691726F6A31 /* Build configuration list for PBXNativeTarget "PDGradientMeterView" */;
 			buildPhases = (
-				3D668CF785D614074001954F8495CAC2 /* Sources */,
+				BE2D9A517C42E2C303FD1D6C0AC12346 /* Sources */,
 				367A978F01FF922D2C3A45B907184D32 /* Frameworks */,
 				5A3D66EE22D3B3298FD344139DE8CA01 /* Resources */,
 				D4D1A36DFFE10E5D92382C5A12D04C85 /* Headers */,
@@ -354,7 +354,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -403,12 +403,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D668CF785D614074001954F8495CAC2 /* Sources */ = {
+		BE2D9A517C42E2C303FD1D6C0AC12346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E24F141C70B7EF00043B6E /* PDGradientMeterView.swift in Sources */,
-				44B191B197C4544148AE38D3BA860DEB /* PDGradientMeterView-dummy.m in Sources */,
+				08ACACC78C698E4A771D4A80E29EBEB1 /* PDGradientMeterView-dummy.m in Sources */,
+				4A0039530073ECE5ED4D7AF7A87B7CA9 /* PDGradientMeterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +520,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22EACCF60FF2EEE8403343B6DE53CAFE /* PDGradientMeterView.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -673,7 +672,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22EACCF60FF2EEE8403343B6DE53CAFE /* PDGradientMeterView.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
