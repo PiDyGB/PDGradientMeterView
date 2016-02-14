@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PDGradientMeterView_Example', :exclusive => true do
+  pod 'PDGradientMeterView', :path => '../'
+end
+
+target 'PDGradientMeterView_Tests', :exclusive => true do
+  pod 'PDGradientMeterView', :path => '../'
+
+  
+end
